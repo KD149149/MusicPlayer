@@ -16,7 +16,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/drawer_color"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
         <LinearLayout
@@ -41,9 +41,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elevation="10dp"
-                app:tabBackground="@color/colorPrimary"
+                app:tabBackground="@color/drawer_color"
                 app:tabGravity="fill"
-                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabIndicatorColor="@color/color_black"
                 app:tabMode="fixed"
                 app:tabSelectedTextColor="@color/text_color"
                 app:tabTextColor="@color/off_color" />
